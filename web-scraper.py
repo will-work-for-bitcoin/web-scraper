@@ -12,7 +12,6 @@ Usage:
     python web-scraper.py <url> --headers
 
 Support: https://github.com/yourusername/web-scraper
-BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9
 """
 
 import sys
@@ -132,7 +131,6 @@ def display_results(url, data, format_type="table"):
             print(f"  [{i:>2}] {elem[:100]}...")
         print()
     
-    print(f"  💰 BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9")
     print(f"  📦 Source: https://github.com/yourusername/web-scraper\n")
 
 
